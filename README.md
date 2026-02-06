@@ -42,7 +42,7 @@ The Vaccine Certificate application leverages blockchain technology to create an
 ### Blockchain
 - **Ethereum** - Blockchain platform
 - **web3dart** - Ethereum library for Dart
-- **Ganache** - Local Ethereum blockchain for development (assumed)
+- **Ganache** - Local Ethereum blockchain for development (recommended)
 - **Solidity** - Smart contract programming (contract artifact included)
 
 ### Additional Libraries
@@ -90,8 +90,8 @@ Before you begin, ensure you have the following installed:
 Before running the application, you need to set up your Ethereum development environment:
 
 1. **Start Ganache** (or your preferred Ethereum test network)
-   - Default RPC Server: `http://192.168.0.5:7545`
-   - WebSocket Server: `ws://192.168.0.5:7545/`
+   - RPC Server: `http://localhost:7545` (or your network IP)
+   - WebSocket Server: `ws://localhost:7545/` (or your network IP)
 
 2. **Update Contract Configuration**
    
@@ -101,6 +101,8 @@ Before running the application, you need to set up your Ethereum development env
    final String _wsUrl = "ws://YOUR_IP:7545/";
    final String _privateKey = "YOUR_PRIVATE_KEY";
    ```
+   
+   **⚠️ Security Warning**: Never hardcode private keys in production code. Use environment variables or secure configuration management instead. The current implementation is for development purposes only.
 
 3. **Deploy Smart Contract**
    - The contract ABI is located in `assets/Vaccination.json`
