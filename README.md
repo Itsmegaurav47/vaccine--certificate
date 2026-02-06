@@ -2,20 +2,7 @@
 
 A decentralized vaccination certificate management system built with Flutter and Ethereum blockchain technology. This application provides a secure, transparent, and tamper-proof way to manage vaccination records using smart contracts.
 
-## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Smart Contract Integration](#smart-contract-integration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🌟 Overview
 
@@ -232,20 +219,14 @@ Contributions are welcome! Please follow these steps:
 - Add comments for complex logic
 - Test on multiple platforms before submitting PR
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
 **Gaurav**
 - GitHub: [@Itsmegaurav47](https://github.com/Itsmegaurav47)
 
-## 🙏 Acknowledgments
 
-- Flutter team for the amazing framework
-- Ethereum and web3dart communities
-- All contributors who help improve this project
 
 ---
 
